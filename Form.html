@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Form.css">
+    <title>Dvg Goettingen Ticket</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <h1>Anmeldung</h1>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                Cum
+                sociis natoque
+                penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                pellentesque eu, pretium quis,
+                sem. </p>
+
+            <h1 class="kites_event_heading_text">Angaben zur Person</h1>
+            <div>
+                <div class="kites_event_first_name">
+                    <label for="first_name">Vorname:</label>
+                    <input type="text" id="first_name" required>
+                </div>
+                <br>
+                <div class="kites_event_last_name">
+                    <label for="last_name">Name:</label>
+                    <input type="text" id="last_name" required>
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <h1 class="kites_event_heading_text">FORUM für junge Gestalttherapeut*innen</h1>
+            <h5>Ticket</h5>
+
+            <div>
+                <div>
+                    <p>FORUM für junge Gestalttherapeut*innen</p>
+                    <input type="radio" id="therapists_yes" name="therapists" value="Ja">
+                    <label for="therapists_yes">Ja</label><br>
+                    <input type="radio" id="therapists_no" name="therapists" value="Nein">
+                    <label for="therapists_no">Nein</label><br>
+                </div>
+                <div>
+                    <p>Welche Themen interessieren Dich/Sie?</p>
+                    <input type="checkbox" name="interest" id="interest_value1" value="Professionalisierung als Gestalttherapeut*in, z.B. - Wie komme ich an
+                Klient*innen und
+                ins Business?">
+                    <label for="interest_value1"> Professionalisierung als Gestalttherapeut*in, z.B. - Wie komme ich an
+                        Klient*innen und
+                        ins Business?</label> <br>
+                    <input type="checkbox" name="interest" id="interest_value2" value="Globale Fragen zu Umwelt und Politik, z.B. Was beunruhigt mich besonders
+                bei Gedanken
+                an die Zukunft?">
+                    <label for="interest_value2"> Globale Fragen zu Umwelt und Politik, z.B. Was beunruhigt mich
+                        besonders
+                        bei Gedanken
+                        an die Zukunft?</label> <br>
+                    <input type="checkbox" name="interest" id="interest_value3" value="Fragen zum Verein">
+                    <label for="interest_value3"> Fragen zum Verein</label> <br>
+                    <input type="checkbox" name="interest" id="interest_value4"
+                        value="Ich interessiere mich besonders für folgendes Thema">
+                    <label for="interest_value4">Ich interessiere mich besonders für folgendes Thema</label>
+                </div>
+                <div>
+                    <p>Fragen zum Verein</p>
+                    <input type="checkbox" name="club_qus" id="club_qus1" value="DVG">
+                    <label for="club_qus1"> DVG</label> <br>
+                    <input type="checkbox" name="club_qus" id="club_qus2" value="ÖVG">
+                    <label for="club_qus2"> ÖVG</label> <br>
+                    <input type="checkbox" name="club_qus" id="club_qus3" value="Schweizer Netzwerk Gestalt">
+                    <label for="club_qus3"> Schweizer Netzwerk Gestalt</label> <br>
+                </div>
+                <div>
+                    <label for="interested_topic">Ich interessiere mich besonders für folgendes Thema:</label> <br>
+                    <textarea name="interested_topic" id="interested_topic" cols="80" rows="5"></textarea>
+                </div>
+                <div>
+                    <p>FORUM für junge Gestalttherapeut*innen</p>
+                    <input type="radio" id="keynote_yes" name="keynote" value="Ja">
+                    <label for="keynote_yes">Ja</label><br>
+                    <input type="radio" id="keynote_no" name="keynote" value="Nein">
+                    <label for="keynote_no">Nein</label><br>
+                </div>
+                <div>
+                    <label for="offer_topic">Ich interessiere mich besonders für folgendes Thema:</label> <br>
+                    <textarea name="offer_topic" id="offer_topic" cols="80" rows="5"></textarea>
+                </div>
+            </div>
+
+            <div>
+                <h1 class="kites_event_heading_text">Tagung</h1>
+
+                <div>
+                    <h5>Ticket</h5>
+                    <input type="radio" id="member" name="ticket" value="Mitglied der veranstaltenden Verbände">
+                    <label for="member">Mitglied der veranstaltenden Verbände</label><br>
+
+                    <input type="radio" id="non_member" name="ticket" value="Nicht-Mitglied +50,00 €">
+                    <label for="non_member">Nicht-Mitglied +50,00 €</label><br>
+
+                    <input type="radio" id="training-member" name="ticket"
+                        value="Mitglied in Ausbildung, Studenten, Azubis, Arbeitssuchende (mit Nachweis) -90,00 €">
+                    <label for="training-member">Mitglied in Ausbildung, Studenten, Azubis, Arbeitssuchende (mit
+                        Nachweis) -90,00 €</label><br>
+
+                    <input type="radio" id="friday_ticket" name="ticket" value="Tageskarte Freitag">
+                    <label for="friday_ticket">Tageskarte Freitag</label><br>
+
+                    <input type="radio" id="saturday_ticket" name="ticket" value="Tageskarte Samstag">
+                    <label for="saturday_ticket">Tageskarte Samstag</label><br>
+
+                    <input type="radio" id="sunday_ticket" name="ticket" value="Tageskarte Sonntag">
+                    <label for="sunday_ticket">Tageskarte Sonntag</label><br>
+
+                    <input type="radio" id="group_discount" name="ticket"
+                        value="Gruppenrabatt für Mitglieder in Ausbildung und Ausbildungskandidat*innen bei min. 5 Personen -140,00 €">
+                    <label for="group_discount">Gruppenrabatt für Mitglieder in Ausbildung und Ausbildungskandidat*innen
+                        bei min. 5 Personen -140,00 €</label><br>
+                </div>
+                <div>
+                    <h5>Teilnahme am Tagungsfest</h5>
+                    <p>Möchten Sie/möchtest Du während der Tagung an einer Resonanzgruppe teilnehmen?</p>
+                    <input type="radio" id="conference_party_yes" name="conference_party" value="Ja">
+                    <label for="conference_party_yes">Ja (Noch X Plätze verfügbar)</label><br>
+                    <input type="radio" id="conference_party_no" name="conference_party" value="Nein">
+                    <label for="conference_party_no">Nein</label><br>
+                </div>
+                <div>
+                    <h5>Teilnahme Resonanzgruppe</h5>
+                    <p>Würden Sie/würdest Du gerne eine Resonanzgruppe leiten?</p>
+                    <input type="radio" id="resonance_group_yes" name="resonance_group" value="Ja">
+                    <label for="resonance_group_yes">Ja</label><br>
+                    <input type="radio" id="resonance_group_no" name="resonance_group" value="Nein">
+                    <label for="resonance_group_no">Nein</label><br>
+                </div>
+                <div>
+                    <h5>Leitung Resonanzgruppe</h5>
+                    <p>Würden Sie/würdest Du gerne eine Resonanzgruppe leiten?</p>
+                    <input type="radio" id="head_reonance_yes" name="head_reonance" value="Ja">
+                    <label for="head_reonance_yes">Ja</label><br>
+                    <input type="radio" id="head_reonance_no" name="head_reonance" value="Nein">
+                    <label for="head_reonance_no">Nein</label><br>
+                </div>
+                <div>
+                    <h5>Liste Tagungsteilnehmer*innen</h5>
+                    <p>Ich möchte in der Liste der Tagungsteilnehmer*innen inkl. meiner Email-Adressen</p>
+
+                    <input type="radio" id="conference_appear" name="conference_list" value="erscheinen">
+                    <label for="conference_appear">erscheinen</label><br>
+
+                    <input type="radio" id="conference_non_appearance" name="conference_list" value="nicht erscheinen">
+                    <label for="conference_non_appearance">nicht erscheinen</label><br>
+                </div>
+                <div>
+                    <h5>Catering</h5>
+                    <input type="radio" id="catering_" name="catering" value="Vegan">
+                    <label for="catering_vegan">Vegan</label><br>
+                    <input type="radio" id="catering_" name="catering" value="Vegetarisch">
+                    <label for="catering_vegetarian">Vegetarisch</label><br>
+                </div>
+            </div>
+            <br>
+            <div>
+                <div>
+                    <input type="checkbox" name="terms" id="terms">
+                    <label for="terms"> Ich bin mit den AGBs und der Datenschutzerklärung einverstanden.</label> <br>
+
+                    <input type="checkbox" name="social_media" id="social_media">
+                    <label for="social_media"> Ich bin damit einverstanden, dass Fotos, die während der Veranstaltung von mir gemacht werden, auf Social Media verwendet werden dürfen</label> <br>
+                </div>
+            </div>
+
+    </form>
+</body>
+
+</html>
